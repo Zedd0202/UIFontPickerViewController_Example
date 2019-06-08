@@ -6,4 +6,5 @@
 
 ## Requirements
 
-- Xcode 11 Beta
+- Xcode 11 Beta(Depolyment target : 13.0)
+
