@@ -19,7 +19,7 @@ class ViewController: UIViewController, UIFontPickerViewControllerDelegate {
 
     @IBAction func selectFontButtonDidTap(_ sender: Any) {
         
-        let configuration = UIFontPickerViewControllerConfiguration()
+        let configuration = UIFontPickerViewController.Configuration()
         configuration.includeFaces = true
         
         let fontPickerViewController = UIFontPickerViewController(configuration: configuration)
